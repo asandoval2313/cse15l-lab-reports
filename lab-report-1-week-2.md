@@ -1,3 +1,6 @@
+# Week 1-2 Lab Report
+
+
 1. The first step is to download a code editor on your personal computer. We used VS code. I already had it installed but one thing I did install was the Java collection in the extensions section of Vs code. 
 
 ![Image](vscodeinstall.png)
