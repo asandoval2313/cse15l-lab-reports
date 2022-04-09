@@ -2,17 +2,11 @@
 
 
 1. The first step is to download a code editor on your personal computer. We used VS code. I already had it installed but one thing I did install was the Java collection in the extensions section of Vs code. 
-
 <!-- ![Image](vscodeinstall.png) -->
-
 2. The second step is to remotely connect using SSH. Type `ssh (username).ieng6.ucsd.edu` in the terminal, and then enter your password. 
-
 <!-- ![Image](remoteconnecting.png) -->
-
 3. Now that you're connected you can mess around with a few commands. One of the commands I experimented with was ls -lat, which is a combination of running ls -l, ls -a, and ls, -t. Basically it gives you a list of all files (even hidden) in order by most recent, with extra information for each file. 
-
 <!-- ![Image](lab1ss.png) -->
-
 4. If you want to move files to and from the server, you can use SCP. Type `scp (name of the file you want to move) (directory you want to move it to)`. It will prompt you for your password and you should see it get transferred over. 
 
 <!-- ![Image](usingscp.png) -->
