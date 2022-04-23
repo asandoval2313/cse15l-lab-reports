@@ -1,6 +1,6 @@
 # Week 3-4 Lab Report
 
-### If you'd like to read my first lab report, please head [here](lab-report-1-week2.md)
+### If you'd like to read my first lab report, please head [here](https://asandoval2313.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 # Code Change #1
 
