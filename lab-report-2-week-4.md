@@ -5,12 +5,12 @@
 # Code Change #1
 
 ## Commit Message
-![Image](codechange1.png)
+![Image](codechange1.PNG)
 
 [Test File that Prompted Fix](https://github.com/leahkuruvila/markdown-parser/blob/6938e7d578994dbde1da1c611c9ee5034838fcc9/test-file.md)
 
 ## Symptom/Error
-![Image](symptom1.png)
+![Image](symptom1.PNG)
 
 
 ## Explanation
@@ -19,12 +19,12 @@
 # Code Change #2
 
 ## Commit Message
-![Image](codechange3.png)
+![Image](codechange3.PNG)
 
 [Test File that Prompted Fix](https://github.com/asandoval2313/markdown-parser/blob/main/test1.md)
 
 ## Symptom/Error
-![Image](symptom2.png)
+![Image](symptom2.PNG)
 
 
 ## Explanation
@@ -33,12 +33,12 @@
 # Code Change #3
 
 ## Commit Message
-![Image](codechange2.png)
+![Image](codechange2.PNG)
 
 [Test File that Prompted Fix](https://github.com/asandoval2313/markdown-parser/blob/main/test2.md)
 
 ## Symptom/Error
-![Image](symptom2.png)
+![Image](symptom2.PNG)
 
 
 ## Explanation
