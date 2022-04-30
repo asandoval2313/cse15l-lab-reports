@@ -38,7 +38,7 @@
 [Test File that Prompted Fix](https://github.com/asandoval2313/markdown-parser/blob/main/test2.md)
 
 ## Symptom/Error
-![Image](symptom2.PNG)
+![Image](symptom3.PNG)
 
 
 ## Explanation
