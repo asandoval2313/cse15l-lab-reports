@@ -13,11 +13,11 @@
 ![Image](symptom1.PNG)
 
 ### Symptom
-- Infinite loop (heap error)
+Infinite loop (heap error)
 ### Bug
-- Flaw in logic
+Flaw in logic
 ### Explanation
-- Whenever an open bracket was not found, the indexOf method would return -1. At the end of the while +1 would be added to this current index, which would reset it back to 0, so it would just infinitely keep searching for a character that wasn't there. We had to add a conditional where if `openBracket == -1` we would `break` out of the loop.
+Whenever an open bracket was not found, the indexOf method would return -1. At the end of the while +1 would be added to this current index, which would reset it back to 0, so it would just infinitely keep searching for a character that wasn't there. We had to add a conditional where if `openBracket == -1` we would `break` out of the loop.
 
 # Code Change #2
 
@@ -30,11 +30,11 @@
 ![Image](symptom2.PNG)
 
 ### Symptom
-- Wrong output
+Wrong output
 ### Bug
-- Flaw in logic
+Flaw in logic
 ### Explanation
-- Since our code assumed that the parenthesis would be right next to the brackets, it would give the wrong output when this wasn't the case. To fix this, we added a check to make sure the index of the opening parenthesis was directly next to the index of the closing parenthesis. 
+Since our code assumed that the parenthesis would be right next to the brackets, it would give the wrong output when this wasn't the case. To fix this, we added a check to make sure the index of the opening parenthesis was directly next to the index of the closing parenthesis. 
 
 # Code Change #3
 
@@ -47,8 +47,8 @@
 ![Image](symptom3.PNG)
 
 ### Symptom
-- Infinite loop (heap error)
+Infinite loop (heap error)
 ### Bug
-- Flaw in logic
+Flaw in logic
 ### Explanation
-- Anytime there was a lone open bracket or parenthesis at the end of the code, it would continue to search for the closing pair infinitely. To fix this we did something very similar to what we did in the first bug, what was to just add a conditional to each index variable to ensure we were never searching for something that didn't exist. 
+Anytime there was a lone open bracket or parenthesis at the end of the code, it would continue to search for the closing pair infinitely. To fix this we did something very similar to what we did in the first bug, what was to just add a conditional to each index variable to ensure we were never searching for something that didn't exist. 
