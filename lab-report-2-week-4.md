@@ -12,9 +12,12 @@
 ## Symptom/Error
 ![Image](symptom1.PNG)
 
-
-## Explanation
- Whenever there was anything after the link in the markdown file, it would infinetely search for the next open bracket. To fix this, we set a criteria where if it didn't find an opening bracket, aka ```openBracket == -1```, then it would break out of the for loop. This indicated that it had reached the end of the markdown file without finding an open bracket. 
+### Symptom
+- Infinite loop (heap error)
+### Bug
+- Flaw in logic
+### Explanation
+- Whenever an open bracket was not found, the indexOf method would return -1. At the end of the while +1 would be added to this current index, which would reset it back to 0, so it would just infinitely keep searching for a character that wasn't there. We had to add a conditional where if `openBracket == -1` we would `break` out of the loop.
 
 # Code Change #2
 
@@ -26,9 +29,12 @@
 ## Symptom/Error
 ![Image](symptom2.PNG)
 
-
-## Explanation
- In the test file you can see that there is an open bracket, closing bracket, open parentheses, and closing parentheses, all in the order that the code is searching for. However, the open parentheses is not directly next to the closing bracket, meaning that it is not a link and therefore should not be printed. To fix this, we made a check to see if the index of the open paren is right next to the index of the closing bracket. If it's not, it starts looking for the next open bracket starting at the index of the closing bracket + 1.
+### Symptom
+- Wrong output
+### Bug
+- Flaw in logic
+### Explanation
+- Since our code assumed that the parenthesis would be right next to the brackets, it would give the wrong output when this wasn't the case. To fix this, we added a check to make sure the index of the opening parenthesis was directly next to the index of the closing parenthesis. 
 
 # Code Change #3
 
@@ -40,6 +46,9 @@
 ## Symptom/Error
 ![Image](symptom3.PNG)
 
-
-## Explanation
-This tet file prompted another heap error, meaning that it was going on infiitely. This happened because there was a lone open curly bracket. This error is very similar to the first bug I mentioned, which is my partner and I were confused at first since we thought we had fixed it. We ended up having to add a conditional to each index variable to make sure that when looking for any character you wouldn't reach the end of the file. 
+### Symptom
+- Infinite loop (heap error)
+### Bug
+- Flaw in logic
+### Explanation
+- Anytime there was a lone open bracket or parenthesis at the end of the code, it would continue to search for the closing pair infinitely. To fix this we did something very similar to what we did in the first bug, what was to just add a conditional to each index variable to ensure we were never searching for something that didn't exist. 
