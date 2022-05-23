@@ -33,7 +33,7 @@ Both implementations failed the second snippet test
 ## Snippet 3:
 
 ### Expected Output
-[\`google.com, google.com, ucsd.edu]
+[(https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule)]
 
 ### <u>Junit Test</u>
 ![image](snip3test.png)
