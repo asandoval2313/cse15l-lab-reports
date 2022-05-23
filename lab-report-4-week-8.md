@@ -21,7 +21,7 @@ Both my implementation and the implementation I reviewed failed test 1.
 ## Snippet 2:
 
 ### Expected Output
-[\`google.com, google.com, ucsd.edu]
+[a.com, a.com(()), example.com]
 
 ### <u>Junit Test</u>
 ![image](snip2.png)
